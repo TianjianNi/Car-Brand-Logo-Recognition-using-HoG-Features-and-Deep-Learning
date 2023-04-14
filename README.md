@@ -1,7 +1,6 @@
-# Car Brand Logo Recognition using HoG Features and Deep Learning
+# Car Brand Recognition using HoG Features and Deep Learning
 
 This project is about recognizing car brand logos using HoG features and deep learning. The dataset used in this project consists of 60 images of three car brands, namely BMW, Benz, and Tesla. Each brand has 20 images of its logo.
-
 
 # Requirements
 
