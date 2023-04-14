@@ -2,6 +2,7 @@
 
 This project is about recognizing car brand logos using HoG features and deep learning. The dataset used in this project consists of 60 images of three car brands, namely BMW, Benz, and Tesla. Each brand has 20 images of its logo.
 
+
 ## Requirements
 
 To run this project, you need to have the following libraries installed:
@@ -12,6 +13,7 @@ To run this project, you need to have the following libraries installed:
     NumPy
     scikit-learn
     TensorFlow
+    
 ## Implementation Details
 
 - The images are read using OpenCV and converted to grayscale.
@@ -26,7 +28,15 @@ To run this project, you need to have the following libraries installed:
 - The output layer has three units, one for each brand, and a softmax activation function.
 - The model is trained using the Adam optimizer and the sparse categorical cross-entropy loss function.
 - The accuracy of the model is calculated on the testing set.
-   
+
+## Tests
+![Tesla%20Test%20Result%202.png](https://github.com/TianjianNi/Car-Brand-Logo-Recognition-using-HoG-Features-and-Deep-Learning/blob/main/Test%20Result/Tesla%20Test%20Result%202.png)
+![Tesla%20Test%20Result%201.png](https://github.com/TianjianNi/Car-Brand-Logo-Recognition-using-HoG-Features-and-Deep-Learning/blob/main/Test%20Result/Tesla%20Test%20Result%201.png)
+![BMW%20Test%20Result1.png](https://github.com/TianjianNi/Car-Brand-Logo-Recognition-using-HoG-Features-and-Deep-Learning/blob/main/Test%20Result/BMW%20Test%20Result1.png)
+![BMW%20Test%20Result2.png](https://github.com/TianjianNi/Car-Brand-Logo-Recognition-using-HoG-Features-and-Deep-Learning/blob/main/Test%20Result/BMW%20Test%20Result2.png)
+![Benz%20Test%20Result%201.png](https://github.com/TianjianNi/Car-Brand-Logo-Recognition-using-HoG-Features-and-Deep-Learning/blob/main/Test%20Result/Benz%20Test%20Result%201.png)
+![Benz%20Test%20Result%203.png](https://github.com/TianjianNi/Car-Brand-Logo-Recognition-using-HoG-Features-and-Deep-Learning/blob/main/Test%20Result/Benz%20Test%20Result%203.png)
+
 ## Results
 
 The model achieves an accuracy of 91.67% on the testing set after 20 epochs.
