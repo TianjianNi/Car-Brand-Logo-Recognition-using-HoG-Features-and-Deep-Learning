@@ -1,6 +1,6 @@
 # Car Brand Recognition using HoG Features and Deep Learning
 
-This project is about recognizing car brand logos using HoG features and deep learning. 
+Recognizing car brand logos using HoG features and deep learning. 
 
 # Requirements
 
